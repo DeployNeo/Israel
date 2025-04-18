@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Barcode Scanner</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>📦 Smart Barcode Scanner</h1>
+  <p class="subheading">Scan any product's barcode to get origin, brand & more.</p>
+  
+  <div id="scanner-container"></div>
+  <div id="product-info" class="hidden"></div>
+  <button id="scan-again" class="hidden">🔄 Scan Again</button>
+
+  <h2 class="history-title">📊 Scan History</h2>
+  <div id="history-list"></div>
+  <button id="clear-history">🗑️ Clear History</button>
+
+  <script src="https://unpkg.com/@ericblade/quagga2@v0.0.10/dist/quagga.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
